@@ -1,0 +1,30 @@
+C:\Users\PENITTA A\youtube>git branch
+* b1
+  main
+
+C:\Users\PENITTA A\youtube>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\PENITTA A\youtube>git branch
+  b1
+* main
+
+C:\Users\PENITTA A\youtube>git add .
+
+C:\Users\PENITTA A\youtube>git commit -m "jjj"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\PENITTA A\youtube>git pull
+Already up to date.
+
+C:\Users\PENITTA A\youtube>git push
+Everything up-to-date
+
+C:\Users\PENITTA A\youtube>git merge
+Already up to date.
+
+C:\Users\PENITTA A\youtube>
