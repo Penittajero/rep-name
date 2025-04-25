@@ -1,0 +1,17 @@
+1. On Github.com, ensure your repository is public. 
+2. Clone the repository to your local machine. 
+i. Open a terminal on your local machine. 
+ii. Use the following command to clone the repository to your local machine. Replace 'you 
+username' and 'your-repo-name' with your GitHub username and repository name 
+git clone https://github.com/your-username/your-repo-name.git 
+iii. Move into the newly cloned repository 
+cd your-repo-name 
+3. Make a change to the README file (Create a README.md file if it does not exist). 
+4. Commit the change. 
+i. Add the modified README file to the staging area using the following command: 
+git add README.md 
+ii. Commit the changes with a meaningful commit message: 
+git commit -m "Update README file" 
+5. Push it to the GitHub repository using the following command. If your main branch is called 
+‘master’, then replace ‘main’ with ‘master’. 
+git push origin main
