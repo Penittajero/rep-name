@@ -1,0 +1,92 @@
+Alright! Let's go very very very clearly step by step — like you're doing it for the first time.
+
+
+---
+
+Goal:
+
+You want to bring the latest updates from main branch into your own branch (example: feature-branch).
+
+
+---
+
+Step-by-step:
+
+1. Open Terminal (or Git Bash)
+
+Where you have your Git project.
+
+
+---
+
+2. Make sure you saved your work
+
+Before switching branches, save any work you've done.
+
+git status
+
+If you see changes not committed, do this:
+
+git add .
+git commit -m "Saving my work before merging"
+
+
+---
+
+3. Switch to your branch
+
+Let’s say your branch is called feature-branch.
+
+git checkout feature-branch
+
+Now you are working inside feature-branch.
+
+
+---
+
+4. Make sure the main branch is up to date
+
+You want to bring the latest code from main. So do this:
+
+git checkout main
+git pull origin main
+
+This gets the latest code from GitHub.
+
+
+---
+
+5. Now switch back to your branch again
+
+git checkout feature-branch
+
+
+---
+
+6. Merge main into your branch
+
+Now run this:
+
+git merge main
+
+If everything is fine, Git will say:
+
+Merge made by the 'recursive' strategy.
+
+If there is a conflict, Git will show a message and you'll have to fix the files manually.
+
+
+---
+
+7. After merge, push your changes to GitHub
+
+git push origin feature-branch
+
+
+---
+
+That's it!
+
+You have now merged main into your branch very clearly and safely.
+
+Want a diagram or example project too?
