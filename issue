@@ -1,0 +1,86 @@
+ Step-by-Step Process to Create and Address GitHub Issues
+🔹 Step 1: Create a New Issue in Your Repository
+Go to your GitHub repository using your browser.
+
+Click the “Issues” tab (located near the top of the repo page).
+
+Click the “New issue” button (usually green).
+
+Type a title for the issue (e.g., “Fix login button not working”).
+
+In the description box, explain what the issue is about — give details, screenshots if needed.
+
+Optionally:
+
+Assign it to someone (in the "Assignees" section).
+
+Add labels like “bug,” “enhancement,” etc.
+
+Set a milestone or project if needed.
+
+Click “Submit new issue” — the issue is now live!
+
+✅ This helps track problems or features that need work in the project.
+
+🔹 Step 2: Assign the Issue to a Collaborator
+In the issue page, look for the “Assignees” box on the right side.
+
+Click it and select the collaborator (yourself or your teammate).
+
+That person is now officially responsible for resolving the issue.
+
+✅ They’ll get a notification and can start working on it.
+
+🔹 Step 3: Label the Issue
+Still on the issue page, look for the “Labels” section (right side).
+
+Click it to choose appropriate tags like:
+
+bug – Something is broken.
+
+feature – A new feature suggestion.
+
+help wanted – Needs assistance.
+
+You can also create custom labels if needed.
+
+✅ Labels make it easier to organize and filter issues.
+
+🔹 Step 4: Fix the Issue in Code and Close It via Commit Message
+In your local code:
+
+Fix the issue in the appropriate file(s).
+
+Open terminal/command prompt and run:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Fix #1: Corrected login button issue"
+Replace #1 with the issue number from GitHub.
+
+Push the code to GitHub:
+
+bash
+Copy
+Edit
+git push origin main
+💡 GitHub will automatically detect the Fix #1 in the commit message and close the issue.
+
+✅ This directly links your code change to the issue.
+
+🔹 Step 5 (Optional): Comment and Collaborate
+Go to the issue page.
+
+You can add comments like:
+
+Asking for help
+
+Providing progress updates
+
+Clarifying the issue
+
+Use @username to tag team members.
+
+Add screenshots, logs, or attachments for better understanding.
