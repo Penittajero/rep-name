@@ -1,0 +1,48 @@
+Steps: 
+1.User C (Owner) Adds User B as a Collaborator 
+   GitHub → Repository Settings → Collaborators → Add User B → Submit 
+ 
+2.User B Forks the Repository & Clones It Locally 
+   git clone https://github.com/Shekinah09/SHERFYA.git  
+   cd SHERFYA 
+ 
+3.User B Links to the Upstream Repository for Updates 
+   git remote add upstream https://github.com/Shekinah09/SHERFYA.git  
+ 
+4.User B Pulls Latest Changes from the Owner 
+   git pull upstream main 
+ 
+5.User B Creates a New Branch for Work 
+   git checkout -b sbranch 
+   create a file or update ib drive 
+ 
+6.User B Makes Changes & Commits 
+   git add . 
+   git commit -m "Updated length file" 
+ 
+7.User B Pushes Changes to Their Fork 
+   git push origin sbranch 
+ 
+8.User B Submits a Pull Request on GitHub 
+   Go to the forked repository → Click Compare & Pull Request → Submit 
+ 
+Exp No. 5 WORKING WITH COLLABORATIVE 
+REPOSITORY MANAGEMENT USING GIT  
+Reg No :  URK24CS1003 
+14.03.2025 
+2  
+ 
+ 
+9.User C Reviews & Merges the Pull Request 
+ 
+ 
+10.User B Syncs with the Owner's Repository for Future Updates 
+    git checkout main 
+    git pull upstream main 
+ 
+ 
+ 
+ 
+ 
+Result: 
+    Hence, working with collaborative repository management using git is successfully completed.
