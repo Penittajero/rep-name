@@ -1,0 +1,77 @@
+🔹 Step 1: Find the Repository You Want to Fork
+Open your browser and go to https://github.com.
+
+Search for the repository you want to fork, or go directly to its URL.
+
+🔹 Step 2: Click the “Fork” Button
+On the top right corner of the repo page, click the “Fork” button.
+
+GitHub will ask where you want to fork it (if you're in multiple orgs).
+
+Select your GitHub account (or organization).
+
+💥 After a few seconds, GitHub will create a copy of the repository in your account.
+
+🔹 Step 3: Clone the Fork to Your Local Machine (Optional but Common)
+In your newly forked repo (under your GitHub profile), click the “Code” button.
+
+Copy the URL (HTTPS or SSH).
+
+Open a terminal or command prompt and run:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/forked-repo-name.git
+Navigate into the project folder:
+
+bash
+Copy
+Edit
+cd forked-repo-name
+✅ Now you have a local copy to work with.
+
+🔹 Step 4: Add the Original Repository as a Remote (Optional)
+This helps you pull updates from the original repo later.
+
+bash
+Copy
+Edit
+git remote add upstream https://github.com/original-owner/original-repo-name.git
+You can verify remotes with:
+
+bash
+Copy
+Edit
+git remote -v
+🔹 Step 5: Make Changes and Push
+Create a new branch (recommended):
+
+bash
+Copy
+Edit
+git checkout -b my-feature-branch
+Make your code changes locally.
+
+Add, commit, and push:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Add new feature"
+git push origin my-feature-branch
+🔹 Step 6: Create a Pull Request (PR)
+Go to your forked repo on GitHub.
+
+GitHub will show a “Compare & pull request” button.
+
+Click it, write a description, and submit your pull request to the original repo.
+
+✅ Result:
+You now have a forked copy.
+
+You can make changes safely.
+
+You can contribute back by creating a pull request.
+
